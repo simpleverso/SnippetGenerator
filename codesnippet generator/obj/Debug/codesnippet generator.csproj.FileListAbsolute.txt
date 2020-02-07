@@ -1,0 +1,13 @@
+H:\PROYECTOS\codesnippet generator visualstudio\codesnippet generator\obj\Debug\codesnippet generator.csprojAssemblyReference.cache
+H:\PROYECTOS\codesnippet generator visualstudio\codesnippet generator\obj\Debug\codesnippet_generator.Form1.resources
+H:\PROYECTOS\codesnippet generator visualstudio\codesnippet generator\obj\Debug\codesnippet_generator.Properties.Resources.resources
+H:\PROYECTOS\codesnippet generator visualstudio\codesnippet generator\obj\Debug\codesnippet generator.csproj.GenerateResource.cache
+H:\PROYECTOS\codesnippet generator visualstudio\codesnippet generator\obj\Debug\codesnippet generator.exe
+H:\PROYECTOS\codesnippet generator visualstudio\codesnippet generator\obj\Debug\codesnippet generator.pdb
+H:\PROYECTOS\codesnippet generator visualstudio\codesnippet generator\bin\Debug\codesnippet generator.exe.config
+H:\PROYECTOS\codesnippet generator visualstudio\codesnippet generator\bin\Debug\codesnippet generator.exe.manifest
+H:\PROYECTOS\codesnippet generator visualstudio\codesnippet generator\bin\Debug\codesnippet generator.application
+H:\PROYECTOS\codesnippet generator visualstudio\codesnippet generator\bin\Debug\codesnippet generator.exe
+H:\PROYECTOS\codesnippet generator visualstudio\codesnippet generator\bin\Debug\codesnippet generator.pdb
+H:\PROYECTOS\codesnippet generator visualstudio\codesnippet generator\obj\Debug\codesnippet generator.exe.manifest
+H:\PROYECTOS\codesnippet generator visualstudio\codesnippet generator\obj\Debug\codesnippet generator.application
