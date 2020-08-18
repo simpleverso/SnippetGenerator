@@ -11,3 +11,16 @@ H:\PROYECTOS\codesnippet generator visualstudio\codesnippet generator\bin\Debug\
 H:\PROYECTOS\codesnippet generator visualstudio\codesnippet generator\bin\Debug\codesnippet generator.pdb
 H:\PROYECTOS\codesnippet generator visualstudio\codesnippet generator\obj\Debug\codesnippet generator.exe.manifest
 H:\PROYECTOS\codesnippet generator visualstudio\codesnippet generator\obj\Debug\codesnippet generator.application
+C:\Users\gsantiago\Documents\GitHub\SnippetGenerator\codesnippet generator\bin\Debug\codesnippet generator.exe.config
+C:\Users\gsantiago\Documents\GitHub\SnippetGenerator\codesnippet generator\bin\Debug\codesnippet generator.exe.manifest
+C:\Users\gsantiago\Documents\GitHub\SnippetGenerator\codesnippet generator\bin\Debug\codesnippet generator.application
+C:\Users\gsantiago\Documents\GitHub\SnippetGenerator\codesnippet generator\bin\Debug\codesnippet generator.exe
+C:\Users\gsantiago\Documents\GitHub\SnippetGenerator\codesnippet generator\bin\Debug\codesnippet generator.pdb
+C:\Users\gsantiago\Documents\GitHub\SnippetGenerator\codesnippet generator\obj\Debug\codesnippet generator.csprojAssemblyReference.cache
+C:\Users\gsantiago\Documents\GitHub\SnippetGenerator\codesnippet generator\obj\Debug\codesnippet_generator.Form1.resources
+C:\Users\gsantiago\Documents\GitHub\SnippetGenerator\codesnippet generator\obj\Debug\codesnippet_generator.Properties.Resources.resources
+C:\Users\gsantiago\Documents\GitHub\SnippetGenerator\codesnippet generator\obj\Debug\codesnippet generator.csproj.GenerateResource.cache
+C:\Users\gsantiago\Documents\GitHub\SnippetGenerator\codesnippet generator\obj\Debug\codesnippet generator.exe.manifest
+C:\Users\gsantiago\Documents\GitHub\SnippetGenerator\codesnippet generator\obj\Debug\codesnippet generator.application
+C:\Users\gsantiago\Documents\GitHub\SnippetGenerator\codesnippet generator\obj\Debug\codesnippet generator.exe
+C:\Users\gsantiago\Documents\GitHub\SnippetGenerator\codesnippet generator\obj\Debug\codesnippet generator.pdb

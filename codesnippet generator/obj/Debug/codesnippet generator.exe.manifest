@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="codesnippet generator.exe" size="14848">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="codesnippet generator.exe" size="19456">
       <assemblyIdentity name="codesnippet generator" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>laHIWKKpN8l+OcE54qiXO1NuhAVEEbJ5EXyiCuudoy4=</dsig:DigestValue>
+        <dsig:DigestValue>HRiK3sI4oZOo6ojfK2Y9m3YzeSNG30oDqxyT77pjh0U=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -117,9 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="textBox5.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="textBox5.Text" xml:space="preserve">
     <value>Escribe los espacios a editar entre simbolos de $pesos$ posteriormente en id ingresa las palabras que sustituiste separadas por comas, así mismo en descripcion y en predeterminado **en predeterminado debes respetar la sintaxis de c# ** </value>
   </data>

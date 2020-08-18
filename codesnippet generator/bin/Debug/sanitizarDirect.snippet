@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>sanitizarTit</Title>
+      <Shortcut>sanitizarDirect</Shortcut>
+      <Description>sanitizar textoComm</Description>
+      <Author>Gonzalo Santiago Martinez</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+        <SnippetType>SurroundsWith</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>sanitizado</ID>
+          <ToolTip>nombreVariable</ToolTip>
+          <Default>sanitizado</Default>
+        </Literal>
+        <Literal>
+          <ID>txt_id</ID>
+          <ToolTip>nombre textbox</ToolTip>
+          <Default>txt_id</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp"><![CDATA[string $sanitizado$ = new string($txt_id$.Text.Where(Char.IsLetterOrDigit).ToArray());$end$]]></Code>
+      <Imports>
+        <Import>
+          <Namespace>system.io</Namespace>
+        </Import>
+        <Import>
+          <Namespace>system.xml</Namespace>
+        </Import>
+      </Imports>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
