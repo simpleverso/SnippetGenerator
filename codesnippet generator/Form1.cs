@@ -29,7 +29,7 @@ namespace codesnippet_generator
 
             if (id.Length!=tooltip.Length||tooltip.Length!=valdefecto.Length)
             {
-                MessageBox.Show("Error, introduciste mal los parametros");
+                MessageBox.Show("Error, introdujiste mal los parametros", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 goto fin;
             }
 
@@ -102,8 +102,7 @@ namespace codesnippet_generator
 
             escritor.Close();
         fin:
-            MessageBox.Show("Snippet Generado Correctamente");
-            
+            MessageBox.Show("Snippet Generado Correctamente","Informacion",MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -133,9 +132,16 @@ namespace codesnippet_generator
 
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
-                txt_direccion.Text = openFileDialog1.FileName;
+                try
+                {
+                    txt_direccion.Text = openFileDialog1.FileName;
 
-                abrirSnippet();
+                    abrirSnippet();
+                }
+                catch (Exception)
+                {
+                    MessageBox.Show("Error al abrir archivo", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
         }
 
@@ -298,7 +304,42 @@ namespace codesnippet_generator
                 {  
                 }
             }
+        }
 
+        private void Form1_DragDrop(object sender, DragEventArgs e)
+        {
+            try
+            {
+                string[] files = (string[])e.Data.GetData(DataFormats.FileDrop);
+                txt_direccion.Text = files[0];
+                abrirSnippet();
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Error al abrir archivo", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+           
+        }
+
+        private void Form1_DragOver(object sender, DragEventArgs e)
+        {
+            //string[] files = (string[])e.Data.GetData(DataFormats.FileDrop);
+            //txt_direccion.Text = files[0];
+            //abrirSnippet();
+        }
+
+        private void Form1_DragEnter(object sender, DragEventArgs e)
+        {
+            try
+            {
+                string[] files = (string[])e.Data.GetData(DataFormats.FileDrop);
+                txt_direccion.Text = files[0];
+                abrirSnippet();
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Error al abrir archivo","Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

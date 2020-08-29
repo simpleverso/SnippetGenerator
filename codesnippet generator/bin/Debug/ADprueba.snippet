@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>prueba</Title>
+      <Shortcut>ADprueba</Shortcut>
+      <Description>xxxx</Description>
+      <Author>Gonzalo Santiago Martinez</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+        <SnippetType>SurroundsWith</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>files</ID>
+          <ToolTip>prueba files</ToolTip>
+          <Default>files</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp"><![CDATA[string[] $files$ = (string[])e.Data.GetData(DataFormats.FileDrop);
+            txt_direccion.Text = files[0];
+            abrirSnippet();$end$]]></Code>
+      <Imports>
+        <Import>
+          <Namespace>system.io</Namespace>
+        </Import>
+      </Imports>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
