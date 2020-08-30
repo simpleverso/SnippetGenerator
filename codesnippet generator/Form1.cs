@@ -164,7 +164,7 @@ namespace codesnippet_generator
             }
             catch (Exception)
             {
-
+                Console.WriteLine("Error al obtener el titulo");
             }
 
             try
@@ -173,7 +173,7 @@ namespace codesnippet_generator
             }
             catch (Exception)
             {
-
+                Console.WriteLine("Error al obtener el acceso directo");
             }
 
             try
@@ -182,7 +182,7 @@ namespace codesnippet_generator
             }
             catch (Exception)
             {
-
+                Console.WriteLine("Error al obtener el comentario");
             }
 
 
@@ -196,7 +196,7 @@ namespace codesnippet_generator
             }
             catch (Exception)
             {
-
+                Console.WriteLine("Error al obtener el CDATA");
             }
 
 
@@ -211,7 +211,7 @@ namespace codesnippet_generator
                     }
                     catch (Exception)
                     {
-
+                        Console.WriteLine("Error al obtener el código");
                     }
                 }
                 else
@@ -221,6 +221,7 @@ namespace codesnippet_generator
             }
             catch (Exception)
             {
+                Console.WriteLine("Error al hacer parsing de CDATA");
             }
             
 
@@ -231,7 +232,7 @@ namespace codesnippet_generator
             }
             catch (Exception)
             {
-
+                Console.WriteLine("Error al obtener el lenguaje");
             }
             
 
@@ -272,6 +273,7 @@ namespace codesnippet_generator
                 }
                 catch (Exception)
                 {
+                    Console.WriteLine("Error al obtener el id");
                 }
             }
             if (Txt_descripcion.Text.EndsWith(" "))
@@ -282,6 +284,7 @@ namespace codesnippet_generator
                 }
                 catch (Exception)
                 {
+                    Console.WriteLine("Error al obtener la descripcion");
                 }
             }
             if (Txt_predeterminado.Text.EndsWith(" "))
@@ -292,6 +295,7 @@ namespace codesnippet_generator
                 }
                 catch (Exception)
                 {
+                    Console.WriteLine("Error al obtener los valores predeterminados");
                 }
             }
             if (txt_usings.Text.EndsWith(" "))
@@ -301,7 +305,8 @@ namespace codesnippet_generator
                     txt_usings.Text = txt_usings.Text.Substring(0, txt_usings.Text.Length - 2);
                 }
                 catch (Exception)
-                {  
+                {
+                    Console.WriteLine("Error al obtener usings");
                 }
             }
         }
